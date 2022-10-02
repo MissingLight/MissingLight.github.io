@@ -19,5 +19,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a Master student at Robotic Institute at Carnegie Mellon University [(CMU)](https://www.cmu.edu/), working in [Biorobotics Lab](http://biorobotics.ri.cmu.edu/), advised by Prof. [Howie Choset](https://www.ri.cmu.edu/ri-faculty/howie-choset/). Before joining CMU, I received my B.Eng. degree in Mechanical Engineering (Hsue-shen Tsien Honor Class) from Shanghai Jiao Tong University [(SJTU)]](https://en.sjtu.edu.cn/)in 2020.
+I am a Master student at Robotic Institute at Carnegie Mellon University [(CMU)](https://www.cmu.edu/), working in [Biorobotics Lab](http://biorobotics.ri.cmu.edu/), advised by Prof. [Howie Choset](https://www.ri.cmu.edu/ri-faculty/howie-choset/). Before joining CMU, I received my B.Eng. degree in Mechanical Engineering (Hsue-shen Tsien Honor Class) from Shanghai Jiao Tong University [(SJTU)](https://en.sjtu.edu.cn/) in 2020.
 
