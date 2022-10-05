@@ -230,8 +230,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Yilin]
-  first_name: [Cai]
+  last_name: [Cai]
+  first_name: [Yilin]
 
   style: apa
   locale: en
