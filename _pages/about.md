@@ -2,10 +2,10 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Graduate student @ CMU RI, Poet, Robotist
 
 profile:
-  align: left
+  align: right
   image: myphoto.jpg
   image_circular: false # crops the image to make it circular
   address: >
