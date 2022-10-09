@@ -2,16 +2,14 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Graduate student @ CMU RI, Poet, Robotist
+subtitle:   Master Student @ CMU RI, Poet, Roboticist
 
 profile:
   align: right
   image: myphoto.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> </p>
   social: true  # includes social icons at the bottom of the page
 
 news: true  # includes a list of news items
