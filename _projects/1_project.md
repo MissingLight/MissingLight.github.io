@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Medical Snake
+description: A tendon-driven highly articulated surgical robot probe.
+img: assets/img/robots/medsnake.jpg
 importance: 1
 category: work
 ---
