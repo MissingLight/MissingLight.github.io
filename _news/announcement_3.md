@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-03-07 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+My work on [Rotation Microneedles](https://spj.sciencemag.org/journals/research/2022/9869734/?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Research_TrendMD_1&adobe_mc=MCMID%3D01100660616526618627674078326858807668%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1653177600) for bachalor thesis gets published in [Research](https://spj.sciencemag.org/journals/research/) (first journal in the Science Partner Journal program, IF=11.036).
