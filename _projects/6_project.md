@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Wearable Roboic Arms
+description: Widely adaptive Wearable Supernumerary Robotic Limbs 
+img: assets/img/robots/3rd_arm.jpg
 importance: 4
 category: fun
 ---
