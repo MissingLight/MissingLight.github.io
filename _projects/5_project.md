@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Autonomous Convoy
+description: Autonomous leader following convoy for Zamboni ice-resurfacers
+img: assets/img/robots/zamboni.png
+redirect: https://mrsdprojects.ri.cmu.edu/2022teami/
 importance: 3
 category: fun
 ---
