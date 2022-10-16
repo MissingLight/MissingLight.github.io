@@ -2,7 +2,7 @@
 layout: page
 title: Autonomous Convoy
 description: Autonomous leader following convoy for Zamboni ice-resurfacers
-img: assets/robots/zamboni.png
+img: assets/img/robots/zamboni.png
 redirect: https://mrsdprojects.ri.cmu.edu/2022teami/
 importance: 3
 category: work
