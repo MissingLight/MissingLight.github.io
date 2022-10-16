@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bach
-description: Belt-Augmented Compliant Hand - an adaptive robot hand with active surfaces for in-hand manipulation
+description: Belt-Augmented Compliant Hand with active 
 img: assets/img/robots/bach.jpg
 importance: 2
 category: work

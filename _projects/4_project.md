@@ -2,7 +2,7 @@
 layout: page
 title: Robotic Bronchoscope System
 description: Robotic Bronchoscope System for Diagnosis of Peripheral Pulmonary Nodules
-img: assets/img/robots/scan.jpg
+img: assets/img/robots/broncho.png
 importance: 2
 category: fun
 ---
