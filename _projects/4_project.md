@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: Robotic Bronchoscope System
+description: Robotic Bronchoscope System for Diagnosis of Peripheral Pulmonary Nodules
+img: assets/img/robots/scan.jpg
+importance: 2
 category: fun
 ---
 

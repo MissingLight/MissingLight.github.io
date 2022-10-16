@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Autonomous Convoy
-description: Autonomous leader following convoy for Zamboni ice-resurfacers
-img: assets/img/robots/zamboni.png
-redirect: https://mrsdprojects.ri.cmu.edu/2022teami/
+title: SCAN Continuum Robot
+description: Steerable Cross-axis Notched (SCAN) Continuum Manipulator
+img: assets/img/robots/scan.png
 importance: 3
 category: work
 ---
