@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Walking Song-Cross the Yangtse River
+title: Walking Song- Cross the Yangtse River
 date: 2018-12-07 21:01:00
 description:
 tags: formatting images
