@@ -53,14 +53,21 @@ layout: default
             {{ content }}
           </div>
 
+          {% if page.cv_download -%}
+            <!-- Selected papers -->
+            {%- include cv_download.html %}
+          {%- endif %}
+
           {% if page.news -%}
           <!-- News -->
           {%- include news.html %}
           {%- endif %}
+
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
