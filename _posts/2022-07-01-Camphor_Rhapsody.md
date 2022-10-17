@@ -112,7 +112,7 @@ like a haystack looking for fire in the wind.
 
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/camphor.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-5 mt-md-0">
