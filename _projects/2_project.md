@@ -45,7 +45,7 @@ The compliant finger design and the pivotable fingers allow the hand to grasp ob
 
 <div class="row">
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/robots/bach/results.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/bach/result.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>    
@@ -58,24 +58,24 @@ The compliant finger design and the pivotable fingers allow the hand to grasp ob
 
 <div class="row">
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/robots/bach/demo1.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/bach/demo1.gif" title="result image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/robots/bach/demo2.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/bach/demo2.gif" title="result image" class="img-fluid rounded z-depth-1" %}
     </div>
         <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/robots/bach/demo3.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/bach/demo3.gif" title="result image" class="img-fluid rounded z-depth-1" %}
     </div> 
 </div>
 <div class="row">
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/robots/bach/demo4.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/bach/demo4.gif" title="result image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/robots/bach/demo5.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/bach/demo5.gif" title="result image" class="img-fluid rounded z-depth-1" %}
     </div>
         <div class="col-sm mt-6 mt-md-0">
-        {% include figure.html path="assets/img/robots/bach/demo6.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/bach/demo6.gif" title="result image" class="img-fluid rounded z-depth-1" %}
     </div> 
 </div>
 
