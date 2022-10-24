@@ -3,7 +3,7 @@ layout: post
 title:  解蓝湖饮水 (Drinking with blue at the West Lake)
 date: 2019-02-01 21:01:00
 description: 
-tags: formatting images
+tags: City Exp
 categories: sample-posts
 ---
 

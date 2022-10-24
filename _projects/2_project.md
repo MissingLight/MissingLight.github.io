@@ -28,7 +28,7 @@ of various geometries and sizes, and it demonstrated highly robust and efficient
 ### Analysis
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-4 mt-md-0">
         {% include figure.html path="assets/img/robots/bach/analysis.gif" title="analysis image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -44,10 +44,12 @@ of various geometries and sizes, and it demonstrated highly robust and efficient
 The compliant finger design and the pivotable fingers allow the hand to grasp objects of different sizes and shapes including a sphere, a long cylinder, an insulated bottle, a box, an irregular pentagon plate, an RC car wheel, and an irregularly shaped puzzle. All of these objects can be grasped with both pinch grasp and power grasp. They can also be securely grasped at different poses, which is the foundation of a stable in-hand manipulation.
 
 <div class="row">
-    <div class="col-sm mt-6 mt-md-0">
+    <div class="col-sm mt-2 mt-md-0">
+    </div>  
+    <div class="col-sm mt-8 mt-md-0">
         {% include figure.html path="assets/img/robots/bach/result.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-2 mt-md-0">
     </div>    
 </div>
 <div class="caption">
