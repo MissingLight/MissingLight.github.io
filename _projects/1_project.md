@@ -7,11 +7,15 @@ importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<iframe src="https://player.vimeo.com/video/763459276?h=8d87847fa6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="demo3.mp4"></iframe>
+
+
+## Statics Modeling of Discrete Joint Surgical Probes with Tendon-based Stiffening
+
+Prior works have shown that follow-the-leader motion in surgical manipulators can be achieved using two concentric tendon-driven segments that can independently lock their shape, and alternating between locking and advancing each segment. By varying the tendon tension, such manipulators can be both flexible during insertion for safe access and stiff during manipulation for operation precision and high payload capacity.
+However, 3D kinetostatics modeling and the variable stiffness properties of this class of manipulators have not been fully investigated. One challenge in modeling these manipulators is the intentionally introduced friction within the structure that enables follow-the-leader motion and variable stiffness. This paper presents a kinetostatic model that includes the effect of link-to-link friction as well as the external load. This model provides a prediction of the maximum admissible external load on the manipulator, which can be used at the design stage to size mechanical and actuation components given a maximum required surgical task load. We also investigate how the stiffness is influenced by the shape of the manipulator. We validate the model experimentally on a prototype surgical manipulator, showing that our model can predict the maximum permissible load to within 15%. We believe this kinetostatic model lays the groundwork for future design, control, and planning methods with this class of surgical manipulator.
+    
 
     ---
     layout: page
