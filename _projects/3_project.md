@@ -7,33 +7,28 @@ importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Abstract
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator based on Cylindrical Cross-axis Flexural Pivots (CCAFP). The design aims to address the trade-off between notched-tube compliant joints’ range of motion and stiffness by integrating asymmetric cross-axis notch to the manipulator. Two pairs of cross-tiled beams are arranged at each joint section as the flexural member. The increased length of bending members and parallel flexures pairs could enlarge the range of motion within the constraint of ultimate strain and ensure the stiffness.The static model for single and multiple flexural joint sections is built to investigate the bending characteristic of the developed continuum manipulator. The Finite Element Analysis (FEA) is conducted to validate the static model and quantify the superiority of the proposed manipulator in bending angle and strain distribution compared with rectangular notched design.The model verification experiments and stiffness testing experiments are carried out to demonstrate that the developed continuum manipulator could bend to 172◦ by 7 N-acutation force.
+
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-7 mt-md-0">
+        {% include figure.html path="assets/img/robots/scan/design.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
