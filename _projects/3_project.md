@@ -18,11 +18,13 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
     <div class="col-sm mt-5 mt-md-0">
         {% include figure.html path="assets/img/robots/scan/design.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-2 mt-md-0">
+    </div> 
 </div>
 
 ### Analysis
 <div class="row">
-    <div class="col-sm mt-2 mt-md-0">
+    <div class="col-sm mt-1 mt-md-0">
         {% include figure.html path="assets/img/robots/scan/fem_demo.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-8 mt-md-0">
@@ -36,6 +38,8 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
     <div class="col-sm mt-5 mt-md-0">
         {% include figure.html path="assets/img/robots/scan/demo.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-2 mt-md-0">
+    </div> 
 </div>
 
 The bending images of the manipulator from 1-4 N are shown below. The calibrated friction coefficient and Young’s modulus are 0.08 and 67 GPa, respectively. It demonstrates the model estimation results and the experimental results. The mean tip error is 0.41 ± 0.24 mm and its normalization with the total flexible length of the manipulator (38 mm) is 1.074%±0.064%. The max bending angle could reach 172◦ with cable tension about 7 N. 
