@@ -15,19 +15,21 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
 ### Design
 
 <div class="row">
-    <div class="col-sm mt-5 mt-md-0">
+    <div class="col mt-2 mt-md-0">
+    </div> 
+    <div class="col mt-6 mt-md-0">
         {% include figure.html path="assets/img/robots/scan/design.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-2 mt-md-0">
+    <div class="col mt-2 mt-md-0">
     </div> 
 </div>
 
 ### Analysis
 <div class="row">
-    <div class="col-sm mt-1 mt-md-0">
+    <div class="col mt-4 mt-md-0">
         {% include figure.html path="assets/img/robots/scan/fem_demo.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-8 mt-md-0">
+    <div class="col mt-6 mt-md-0">
         {% include figure.html path="assets/img/robots/scan/fem.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -35,10 +37,12 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
 
 ### Results
 <div class="row">
-    <div class="col-sm mt-5 mt-md-0">
+    <div class="col mt-2 mt-md-0">
+    </div> 
+    <div class="col mt-6 mt-md-0">
         {% include figure.html path="assets/img/robots/scan/demo.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-2 mt-md-0">
+    <div class="col mt-2 mt-md-0">
     </div> 
 </div>
 
