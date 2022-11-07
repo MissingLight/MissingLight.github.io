@@ -9,8 +9,12 @@ category: work
 
 
 <div class="row">
-    <div class="col mt-6 mt-md-0">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-6">
         {% include figure.html path="assets/img/robots/medsnake/medsnake_1.jpg" title="result image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-2">
     </div>
 </div><br>
 
