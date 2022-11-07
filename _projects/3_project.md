@@ -18,7 +18,7 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
     <div class="col-sm-2">
     </div> 
     <div class="col-sm-8">
-        {% include figure.html path="assets/img/robots/scan/design.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/scan/design.png" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
     <div class="col-sm-2">
     </div> 
@@ -26,11 +26,11 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
 
 ### Analysis
 <div class="row">
-    <div class="col mt-4 mt-md-0">
-        {% include figure.html path="assets/img/robots/scan/fem_demo.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5">
+        {% include figure.html path="assets/img/robots/scan/fem_demo.gif" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
-    <div class="col mt-6 mt-md-0">
-        {% include figure.html path="assets/img/robots/scan/fem.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5">
+        {% include figure.html path="assets/img/robots/scan/fem.png" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
 </div>
 
@@ -39,8 +39,8 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
 <div class="row">
     <div class="col-sm-2">
     </div> 
-    <div class="col-sm-8">
-        {% include figure.html path="assets/img/robots/scan/demo.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10">
+        {% include figure.html path="assets/img/robots/scan/demo.gif" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
     <div class="col-sm-2">
     </div> 
@@ -51,9 +51,11 @@ The bending images of the manipulator from 1-4 N are shown below. The calibrated
 The increased length of bending members and parallel flexures pairs in each joint could enlarge the range of motion within the constraint of ultimate strain and ensure stiffness. The main contribution is that we integrate the CCAFP into a notched-tube compliant mechanism to solve the trade-off between the range of motion and stiffness, thus making the SCAN manipulator suitable for hard-to-reach lumen accessing and precise tissue manipulation.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/robots/scan/results.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-2">
+    </div> 
+    <div class="col-sm-8">
+        {% include figure.html path="assets/img/robots/scan/results.png" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
-    <div class="col-sm mt-6 mt-md-0">
-    </div>
+    <div class="col-sm-2">
+    </div> 
 </div>
