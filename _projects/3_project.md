@@ -29,7 +29,7 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
     <div class="col-sm-5">
         {% include figure.html path="assets/img/robots/scan/fem_demo.gif" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
-    <div class="col-sm-5">
+    <div class="col-sm-7">
         {% include figure.html path="assets/img/robots/scan/fem.png" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
 </div>
@@ -37,8 +37,6 @@ This paper developed a Steerable Cross-axis Notched (SCAN) continuum manipulator
 
 ### Results
 <div class="row">
-    <div class="col-sm-2">
-    </div> 
     <div class="col-sm-10">
         {% include figure.html path="assets/img/robots/scan/demo.gif" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>

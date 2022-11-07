@@ -21,22 +21,18 @@ category: fun
 </div>
 
 <div class="row">
-    <div class="col-sm-1">
-    </div> 
     <div class="col-sm-5">
         {% include figure.html path="assets/img/robots/lung/system_1.png" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
     <div class="col-sm-5">
         {% include figure.html path="assets/img/robots/lung/system_2.png" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
-    <div class="col-sm-1">
-    </div> 
 </div>
 
 ### Design
 
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col">
         {% include figure.html path="assets/img/robots/lung/design.png" title="example image" class="img-fluid rounded z-depth-0" %}
     </div>
 </div>
@@ -45,11 +41,7 @@ category: fun
 ### Control Framework
 
 <div class="row">
-    <div class="col-sm-1">
-    </div> 
-    <div class="col-sm-8">
+    <div class="col">
         {% include figure.html path="assets/img/robots/lung/control.png" title="example image" class="img-fluid rounded z-depth-0" %}
-    </div>
-    <div class="col-sm-1">
     </div> 
 </div>
