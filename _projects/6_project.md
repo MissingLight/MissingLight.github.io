@@ -23,7 +23,7 @@ category: fun
 
 <div class="row">
     <div class="col-sm-4">
-        {% include figure.html path="assets/img/robots/3rd_arm/demo_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots/3rd_arm/demo_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8">
         {% include figure.html path="assets/img/robots/3rd_arm/demo_2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
