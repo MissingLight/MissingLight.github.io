@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-09-15 15:59:00-0400
+date: 2023-01-17 15:59:00-0400
 inline: true
 ---
 
-Two papers are submitted to ICRA.
+Two papers, "Adaptive Robot Hand with Active Surfaces" and "DytanVO" are accepted to ICRA 2023.
