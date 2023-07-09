@@ -29,6 +29,8 @@
         {%- else %}
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
+          <!-- Award -->
+          <div class="award"><font color="red"> {{entry.award}} </font> </div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
