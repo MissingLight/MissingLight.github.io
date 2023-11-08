@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle:   Master Student @ CMU RI, Poet, Roboticist
+subtitle: Ph.D Student in Robotics @ Georgia Tech, Poet, Roboticist
 
 profile:
   align: right
