@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Ph.D Student in Robotics @ Georgia Tech, Poet, Roboticist
+subtitle: Ph.D. Student in Robotics @ Georgia Tech, Poet, Roboticist
 
 profile:
   align: right
