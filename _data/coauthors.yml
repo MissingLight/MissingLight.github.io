@@ -1,21 +1,18 @@
-"Shenli":
+"yuan":
   - firstname: ["Shenli"]
     url: https://yuanshenli.com/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Chen":
+  - firstname: ["Yu"]
+    url: https://neuling-jpg.github.io/yuchen.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Ren":
+  - firstname: ["Zhongqiang"]
+    url: https://rap-lab.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Choset": 
+  - firstname: ["Howie"]
+    url: http://www.cs.cmu.edu/~choset/
 
 "Przibram":
   - firstname: ["Karl"]
