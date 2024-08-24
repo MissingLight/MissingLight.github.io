@@ -3,7 +3,7 @@ layout: page
 title: SCAN Continuum Robot
 description: Steerable Cross-axis Notched (SCAN) Continuum Manipulator
 img: assets/img/robots/scan.png
-importance: 3
+importance: 4
 category: work
 ---
 
