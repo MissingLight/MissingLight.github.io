@@ -3,7 +3,7 @@ layout: page
 title: Medical Snake
 description: A tendon-driven highly articulated surgical robot probe
 img: assets/img/robots/medsnake.jpg
-importance: 1
+importance: 2
 category: work
 ---
 

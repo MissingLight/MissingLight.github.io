@@ -3,7 +3,7 @@ layout: page
 title: Bach
 description: Belt-Augmented Compliant Hand with active 
 img: assets/img/robots/bach.jpg
-importance: 2
+importance: 3
 category: work
 ---
 
