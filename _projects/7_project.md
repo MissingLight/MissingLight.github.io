@@ -1,9 +1,9 @@
 ---
-layout: moscor
+layout: page
 title: MOSCOR
 description: Modular Self-reconfigurable Continuum Robot
 img: assets/img/robots/moscor.jpg
-# redirect: ../assets/project/moscor_index.html
+redirect: ../assets/project/moscor_index.html
 importance: 1
 category: work
 ---
