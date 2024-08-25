@@ -3,7 +3,7 @@ layout: page
 title: MOSCOR
 description: Modular Self-reconfigurable Continuum Robot
 img: assets/img/robots/moscor.jpg
-redirect: MissingLight.github.io/assets/project/moscor_index.html
+redirect: ../assets/project/moscor_index.html
 importance: 1
 category: work
 ---
