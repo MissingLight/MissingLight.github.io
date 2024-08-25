@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Modular Self-reconfigurable Continuum Robots.">
+  <meta name="keywords" content="Modular, Continuum Robot">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modular Self-reconfigurable Continuum Robots</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/project/moscor_static/css/bulma.min.css">
+  <link rel="stylesheet" href="../assets/project/moscor_static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../assets/project/moscor_static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="../assets/project/moscor_static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="../assets/project/moscor_static/css/index.css">
+  <link rel="icon" href="../assets/project/moscor_static/images/head_icon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="../assets/project/moscor_static/js/fontawesome.all.min.js"></script>
+  <script src="../assets/project/moscor_static/js/bulma-carousel.min.js"></script>
+  <script src="../assets/project/moscor_static/js/bulma-slider.min.js"></script>
+  <script src="../assets/project/moscor_static/js/index.js"></script>
+</head>
+<body>
+
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav> -->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Modular Self-Reconfigurable Continuum Robot for General Purpose Loco-Manipulation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://missinglight.github.io/">Yilin Cai</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href=" ">Haokai Xu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=en&user=NPQm5SsAAAAJ&view_op=list_works&sortby=pubdate">Yifan Wang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=ctsFlkEAAAAJ&hl=en">Desai Chen</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=UMPylPgAAAAJ&hl=en">Wan Shou</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=en&user=dDPQH3oAAAAJ&view_op=list_works&sortby=pubdate">Yue Chen</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Georgia Institute of Technology,</span>
+            <span class="author-block"><sup>2</sup>Inkbit Corporation,</span>
+            <span class="author-block"><sup>3</sup>University of Arkansas</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span> -->
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="../assets/project/moscor_static/videos/teaser.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
+        free-viewpoint
+        portraits.
+      </h2>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/steve.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/chair-tp.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/shiba.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/fullbody.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/blueshirt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/mask.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/coffee.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/toby2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- <p>
+            We present the first method capable of photorealistically reconstructing a non-rigidly
+            deforming scene using photos/videos captured casually from mobile phones.
+          </p> -->
+          <p>
+            Modular Self-Reconfigurable Robots offer exceptional adaptability and versatility through reconfiguration, but traditional rigid structure designs lack the compliance necessary for effective interaction with complex environments. 
+            Recent advancements in modular soft robotics address this shortcoming with enhanced morphologies and functions, though they remain limited by reliance on manual assembly and the absence of active self-reconfiguration capabilities.
+            In this paper, we present a modular self-reconfigurable soft continuum robot system featuring a continuum backbone and an omnidirectional docking connector.
+            This design enables each module to independently perform loco-manipulation and self-reconfiguration without manual intervention. 
+            We also propose a kinetostatic model and perform geometrical docking range analysis to characterize the robot's performance.
+            The reconfiguration process and the distinct motion gait for each configuration are identified, including rolling, crawling, and snake-like undulation. 
+            Experimental demonstrations show that both single and multiple connected modules can achieve successful loco-manipulation, adapting effectively to various environments. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/beDXZ00jntc?si=Ytso6jkJN7-8v-cJ"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<section class="section">
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Robot Design</h2>
+        <div class="content has-text-justified">
+          <p>
+            The MSRCR system features two key components: a soft continuum backbone and two docking connectors based on hybrid soft-rigid ball gripper. The design goals of the MSRCR system are to (1) provide high motion dexterity for single module, (2) achieve polygamous omnidirectional docking, and thus to (3) enable both locomotion and manipulation capability for single module. To meet these goals, the tendon-driven continuum module provides 2-DoF bending for compliant locomotion while the ball grippers allow both the connection between multiple modules and object manipulation. 
+          </p>
+          <video id="design" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/project/moscor_static/videos/design_expode.mp4"
+                    type="video/mp4">
+          </video>
+          <figure class="image">
+            <img src="../assets/project/moscor_static/images/design.jpg" alt="Description of your image">
+            <figcaption>Design of the MSRCR. (a) CAD model of a single module. (b) Prototype of a single module. (c) Explored view of the continuum backbone and the docking gripper. (d) Driving mechatronics and communication diagram.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="section">
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+        <div class="column is-full-width">
+            <h2 class="title is-3">Design Open Source</h2>
+            <div class="content has-text-justified">
+                <p>
+                    The design is open-sourced on <a href="https://cad.onshape.com/documents/f89a0b710a532a2607f383f8/w/25b16eaafd76178d186fd2b9/e/7922fe5d3b107b9a211457a5?renderMode=0&uiState=66cab638c038be38d678462b">Onshape</a>.
+                    You can access the design and make your own MSRCR system.
+                </p>
+                <div class="iframe-container">
+                    <iframe 
+                        frameborder="0" 
+                        src="https://embed.vntana.com?productUuid=45594f0a-b250-407c-9abd-11d8cf534b1c&clientSlug=yilin-cai&organizationSlug=Carnegie-Mellon--University"  
+                        width="800" 
+                        height="500"  
+                        allow="fullscreen; xr-spatial-tracking">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .iframe-container {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Single Module Locomotion and Manipulation</h2>
+    <div class="columns">
+      <!-- First Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Rolling</h3>
+        <!-- <p>
+          Your first paragraph goes here.
+        </p> -->
+        <video id="single1" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/single_rolling.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Second Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Terrain Adaptability</h3>
+        <!-- <p>
+          Your second paragraph goes here. 
+        </p> -->
+        <video id="single2" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/single_terrain.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="columns">
+      <!-- First Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Manipulation - Narrow Entrance</h3>
+        <!-- <p>
+          Your first paragraph goes here.
+        </p> -->
+        <video id="single3" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/single_manipulation1.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Second Column -->
+      <div class="column">
+        <h3 class="subtitle is-4"> Manipulation - Narrow Entrance</h3>
+        <!-- <p>
+          Your second paragraph goes here. 
+        </p> -->
+        <video id="single4" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/single_manipulation2.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+
+  </div>
+  
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Multi-Module Loco-manipulation</h2>
+    <div class="columns">
+      <!-- First Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Two-Module Rolling</h3>
+        <!-- <p>
+          Your first paragraph goes here.
+        </p> -->
+        <video id="single1" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/multi_rolling.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Second Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Snake-like Undulation</h3>
+        <!-- <p>
+          Your second paragraph goes here. 
+        </p> -->
+        <video id="single2" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/multi_snake.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="columns">
+      <!-- First Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Crawling - Loco-Manipulation</h3>
+        <!-- <p>
+          Your first paragraph goes here.
+        </p> -->
+        <video id="single3" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/multi_crawling.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Second Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Crawling - In-place Turning</h3>
+        <!-- <p>
+          Your second paragraph goes here. 
+        </p> -->
+        <video id="single4" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/multi_turn.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+
+  </div>
+  
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Self-Reconfiguration</h2>
+    <div class="columns">
+      <!-- First Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Reconfig by Adding Modules</h3>
+        <!-- <p>
+          Your first paragraph goes here.
+        </p> -->
+        <video id="reconfig1" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/reconfig_move.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Second Column -->
+      <div class="column">
+        <h3 class="subtitle is-4">Reconfig by Connection/Disconnection</h3>
+        <!-- <p>
+          Your second paragraph goes here. 
+        </p> -->
+        <video id="reconfig2" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/reconfig_two.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+
+
+      <div class="column">
+        <h3 class="subtitle is-4">From a Snake to a Crawler</h3>
+        <!-- <p>
+          Your first paragraph goes here.
+        </p> -->
+        <video id="single1" autoplay controls muted loop playsinline height="100%">
+          <source src="../assets/project/moscor_static/videos/reconfig_three.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+
+
+
+
+  </div>
+  
+</section>
+
+
+
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Links</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            There's a lot of excellent work that was introduced around the same time as ours.
+          </p>
+          <p>
+            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
+          </p>
+          <p>
+            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
+            both use deformation fields to model non-rigid scenes.
+          </p>
+          <p>
+            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
+          </p>
+          <p>
+            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{cai2024modular,
+  author    = {Cai, Yilin and Xu, Haokai and Wang, Yifan and Chen, Desai and Shou, Wan and Chen, Yue},
+  title     = {Modular Self-Reconfigurable Continuum Robot for General Purpose Loco-Manipulation},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Page template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
