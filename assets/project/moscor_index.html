@@ -428,10 +428,11 @@
         <!-- <p>
           Your first paragraph goes here.
         </p> -->
-        <video id="single1" autoplay controls muted loop playsinline height="100%">
+        <!-- <video id="single1" autoplay controls muted loop playsinline height="100%">
           <source src="./moscor_static/videos/multi_rolling.mp4"
                   type="video/mp4">
-        </video>
+        </video> -->
+        {% include video.html path="./moscor_static/videos/multi_rolling.mp4" class="video-responsive" autoplay=true controls=true muted=true loop=true %}
       </div>
 
       <!-- Second Column -->
