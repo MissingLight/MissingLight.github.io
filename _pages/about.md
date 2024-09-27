@@ -21,5 +21,5 @@ I am a Ph.D. student in Robotics at Georgia Institute of Technology, advised by 
 
 My research interest lies in general medical robots and robot manipulation. Particularly, I focus on surgical robot system design, modeling and planning for continuum robots, and robotic grippers for in-hand manipulation. I also study control and planning for autonomous driving and SLAM.
 
-Additionally, I was fortunate to work with Profs. [Kenneth Salisbury](https://med.stanford.edu/profiles/john-salisbury), [Gregory Chirikjian](https://chirikjianlab.github.io/) and [Zhinan Zhang](https://chirikjianlab.github.io/) before.
+Additionally, I was fortunate to work with Profs. [Kenneth Salisbury](https://profiles.stanford.edu/john-salisbury?releaseVersion=10.8.0), [Gregory Chirikjian](https://chirikjianlab.github.io/) and [Zhinan Zhang](https://me.sjtu.edu.cn/en/FullTimeTeacher/zhangzhinan.html) before.
 
