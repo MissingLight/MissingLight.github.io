@@ -26,8 +26,8 @@ jobs:
     #   run: bundle update uri # gem update bundler # added
     - name: Install deps
       run: |
-        bundle install
         bundle clean --force        
+        bundle install
         npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
