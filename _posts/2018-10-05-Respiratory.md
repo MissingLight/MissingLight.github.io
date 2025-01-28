@@ -4,7 +4,7 @@ title: 呼吸内科 (Respiratory medicine)
 date: 2019-10-05 21:01:00
 description: 
 tags: Things Exp
-categories: sample-posts
+categories: TODOWHAT
 ---
 
 #### 呼吸内科（Respiratory medicine）

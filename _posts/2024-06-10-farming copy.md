@@ -4,7 +4,7 @@ title:  春日泄奏曲 (Spring Torrential Symphony)
 date: 2023-05-07 21:01:00
 description: 
 tags: Things Exp
-categories: sample-posts
+categories: PERSONAL
 ---
 
 #### 春日泄奏曲 (Spring Torrential Symphony)  

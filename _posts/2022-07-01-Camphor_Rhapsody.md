@@ -4,7 +4,7 @@ title: Camphor Rhapsody
 date: 2022-07-01 21:01:00
 description: Wish all the life with flickering light in the height, like the camphor tree.
 tags: Exp
-categories: sample-posts
+categories: SOMETHINGHUGE
 ---
 
 #### Camphor Rhapsody
