@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MOSCOR
+title: MSRCR
 description: Modular Self-reconfigurable Continuum Robot
 img: assets/img/robots/moscor.jpg
 redirect: ../assets/project/msrcr.html

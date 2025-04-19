@@ -6,7 +6,7 @@ subtitle: Ph.D. Student in Robotics @ Georgia Tech, Poet, Roboticist
 
 profile:
   align: right
-  image: myphoto5.jpg
+  image: myphoto6.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p> </p>
