@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Camphor Rhapsody
+title: Camphor Rhapsody (with a poetry movie)
 date: 2022-07-01 21:01:00
 description: Wish all the life with flickering light in the height, like the camphor tree.
 tags: Exp
