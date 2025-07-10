@@ -7,6 +7,17 @@ tags: Exp
 categories: SOMETHINGHUGE
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.html path="assets/img/camphor.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+    </div>
+</div>
+
+
+*[Camphor Rhapsody: A Poetry Film](https://www.bilibili.com/video/BV1pt41127Z2/?spm_id_from=333.337.search-card.all.click)*
+
 #### Camphor Rhapsody
 
 #### 1.
@@ -111,13 +122,3 @@ like a haystack looking for fire in the wind.
 *2018.10.5-10.7*
 
 
-<div class="row mt-3">
-    <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/camphor.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-5 mt-md-0">
-    </div>
-</div>
-
-
-*[Camphor Rhapsody: A Poetry Film](https://www.bilibili.com/video/BV1pt41127Z2/?spm_id_from=333.337.search-card.all.click)*

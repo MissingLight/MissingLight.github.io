@@ -2,7 +2,7 @@
 layout: post
 title:  解蓝湖饮水 (Drinking with blue at the West Lake)
 date: 2019-02-01 21:01:00
-description: 
+description: 在人间，我们重新拥有软化颜色的视线
 tags: City Exp
 categories: TODOWHAT
 ---
