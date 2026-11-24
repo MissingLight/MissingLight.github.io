@@ -1,7 +1,8 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row{% if entry.highlight == 'true' %} publication-highlight{% endif %}">
+      {%- assign publication_highlight = entry.highlight | append: '' | strip | downcase -%}
+      <div class="row{% if publication_highlight == 'true' %} publication-highlight{% endif %}">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
