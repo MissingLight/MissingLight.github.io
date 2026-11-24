@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MSRCR v2: Evolutionary diversification via modular compliance for self-reconfigurable continuum robots. Science Advances, 2026.">
+  <title>MSRCR v2 | Modular Compliance</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans%7CNoto+Sans%7CCastoro" rel="stylesheet">
+  <link rel="stylesheet" href="./moscor_static/css/bulma.min.css">
+  <link rel="stylesheet" href="./moscor_static/css/index.css">
+  <link rel="icon" href="./moscor_static/images/head_icon.png">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-size: 1rem; line-height: 1.7; }
+    .hero-body { padding-bottom: 2rem; }
+    .eyebrow { color: #27618a; font-weight: 700; letter-spacing: .08em; margin-bottom: 1rem; }
+    .venue { margin: 1rem 0; font-size: 1.15rem; }
+    .publication-title { line-height: 1.2; }
+    .publication-links { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; margin-top: 1.5rem; }
+    .page-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem 1.5rem; margin-top: 1.5rem; }
+    .section { padding: 3rem 1.5rem; }
+    .soft-background { background: #f5f7f9; }
+    .overview-image { display: block; width: 100%; height: auto; border-radius: 8px; }
+    figcaption { text-align: center; margin-top: 1rem; color: #555; }
+    .feature { height: 100%; padding: 1.5rem; background: white; border: 1px solid #dce3e9; border-radius: 8px; }
+    .media-placeholder { min-height: 12rem; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; border: 2px dashed #aabac7; border-radius: 8px; background: #f8fafc; }
+    .media-placeholder p { max-width: 36rem; }
+    .placeholder-label { color: #27618a; font-weight: 700; margin-bottom: .5rem; }
+    .template-note { color: #555; margin-bottom: 1.5rem; }
+    pre { white-space: pre-wrap; overflow-wrap: anywhere; text-align: left; }
+    a:focus-visible { outline: 3px solid #27618a; outline-offset: 4px; }
+    @media (max-width: 600px) { .publication-title.title { font-size: 2rem; } .hero-body { padding: 2.5rem 1.25rem; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop has-text-centered">
+        <p class="eyebrow">MSRCR v2</p>
+        <h1 class="title is-2 publication-title">Evolutionary diversification via modular compliance for self-reconfigurable continuum robots</h1>
+        <div class="is-size-5 publication-authors">
+          <span class="author-block"><a href="https://missinglight.github.io/">Yilin Cai</a>,</span>
+          <span class="author-block">Zhefeng Huang,</span>
+          <span class="author-block"><a href="https://yfnwng.github.io/">Yifan Wang</a>,</span>
+          <span class="author-block">Haokai Xu,</span>
+          <span class="author-block">Yue Chen</span>
+        </div>
+        <p class="is-size-5">Georgia Institute of Technology</p>
+        <p class="venue"><strong>Science Advances</strong> · 2026 · 12(34), eaeg9191</p>
+        <div class="publication-links">
+          <a class="button is-normal is-rounded is-dark" href="https://www.science.org/doi/full/10.1126/sciadv.aeg9191">Paper</a>
+          <a class="button is-normal is-rounded is-dark" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13488886/">Open-access article</a>
+          <a class="button is-normal is-rounded is-dark" href="https://github.com/JanusMaple/CMRRP">Planning code</a>
+          <a class="button is-normal is-rounded is-dark" href="https://doi.org/10.5281/zenodo.20215519">Code archive</a>
+          <a class="button is-normal is-rounded is-dark" href="#BibTeX">BibTeX</a>
+        </div>
+        <nav class="page-nav" aria-label="Project navigation">
+          <a href="../../Robots/">All robots</a>
+          <a href="./msrcr.html">MSRCR v1</a>
+          <a href="#design">Robot design</a>
+          <a href="#demonstrations">Demonstrations</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" aria-label="Project overview image">
+      <div class="container is-max-desktop">
+        <figure>
+          <img class="overview-image" src="../img/publication_preview/msrcr_sa.jpg" alt="MSRCR v2 research overview for the Science Advances publication">
+          <figcaption>MSRCR v2: a modular continuum robot platform for diverse morphologies and behaviors.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section soft-background" id="overview">
+      <div class="container is-max-desktop content">
+        <h2 class="title is-3 has-text-centered">Research Overview</h2>
+        <!-- This is a short summary, not the verbatim published abstract. -->
+        <p>MSRCR v2 brings compliant modules, adaptable connections, and reconfiguration planning into one robotic platform. Each unit combines a bending continuum backbone with grippers that support both docking and object handling. Reorganizing these shared building blocks produces different body forms and motion strategies.</p>
+        <p>The study connects morphology to behavior through a bioinspired gait library and develops a geometric-topological representation for planning changes in configuration. Physical demonstrations combine locomotion, reconfiguration, and manipulation, showing how modular compliance supports interaction with constrained environments.</p>
+        <p>Read the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13488886/">published article</a> for the full abstract, methods, results, and supplementary movies.</p>
+      </div>
+    </section>
+
+    <section class="section" id="design">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Robot Design</h2>
+        <div class="columns">
+          <div class="column"><div class="feature">
+            <h3 class="title is-5">Compliant backbone</h3>
+            <p>Tendon actuation bends the continuum body; compliant joints allow the module to adapt during contact.</p>
+          </div></div>
+          <div class="column"><div class="feature">
+            <h3 class="title is-5">Grasping and docking</h3>
+            <p>Dual-purpose grippers support object manipulation and quasi-freeform connections between modules.</p>
+          </div></div>
+          <div class="column"><div class="feature">
+            <h3 class="title is-5">Reconfiguration planning</h3>
+            <p>A unified representation combines connectivity and geometry to plan grasping, release, and deformation actions.</p>
+          </div></div>
+        </div>
+        <!-- TODO: Replace this block with v2 CAD, an exploded-view image, or a design video. -->
+        <div class="media-placeholder">
+          <p class="placeholder-label">Design figure coming soon</p>
+          <p>Module construction, compliant joints, and docking-gripper details.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-background" id="demonstrations">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Morphologies and Demonstrations</h2>
+        <p class="template-note">This project page is being assembled. Dedicated v2 videos and detailed figures will be added here.</p>
+        <!-- TODO: Replace the placeholders below with v2 media. Keep v1 footage on msrcr.html. -->
+        <div class="columns">
+          <div class="column"><div class="media-placeholder">
+            <h3 class="title is-5">Morphology and gait library</h3>
+            <p>Rolling, undulation, crawling, and quadrupedal walking.</p>
+            <p class="placeholder-label">Video coming soon</p>
+          </div></div>
+          <div class="column"><div class="media-placeholder">
+            <h3 class="title is-5">Self-reconfiguration</h3>
+            <p>Planned transitions between robot configurations.</p>
+            <p class="placeholder-label">Video coming soon</p>
+          </div></div>
+        </div>
+        <div class="media-placeholder">
+          <h3 class="title is-5">Integrated loco-manipulation</h3>
+          <p>Changing body form to move through constrained spaces and handle objects.</p>
+          <p class="placeholder-label">Video coming soon</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title is-3">BibTeX</h2>
+        <pre><code>@article{cai2026evolutionary,
+  title = {Evolutionary diversification via modular compliance for self-reconfigurable continuum robots},
+  author = {Cai, Yilin and Huang, Zhefeng and Wang, Yifan and Xu, Haokai and Chen, Yue},
+  journal = {Science Advances},
+  year = {2026},
+  volume = {12},
+  number = {34},
+  pages = {eaeg9191},
+  doi = {10.1126/sciadv.aeg9191}
+}</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container has-text-centered content">
+      <p><a href="../../Robots/">More robots</a> · <a href="./msrcr.html">Original MSRCR project</a></p>
+      <p>Page styling adapted from the original MSRCR page and the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> template.</p>
+    </div>
+  </footer>
+</body>
+</html>
