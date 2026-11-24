@@ -1,7 +1,7 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row{% if entry.highlight == 'true' %} publication-highlight{% endif %}">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
@@ -30,7 +30,14 @@
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
           <!-- Award -->
-          <div class="award"><font color="red"> {{entry.award}} </font> </div>
+          {%- if entry.award %}
+          <div class="award" style="color: red;">
+            {%- assign awards = entry.award | split: ';' -%}
+            {%- for award in awards %}
+            <div style="color: inherit;">{{ award | strip }}</div>
+            {%- endfor %}
+          </div>
+          {%- endif %}
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
