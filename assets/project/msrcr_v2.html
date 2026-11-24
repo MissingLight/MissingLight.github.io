@@ -21,6 +21,7 @@
     .section { padding: 3rem 1.5rem; }
     .soft-background { background: #f5f7f9; }
     .overview-image { display: block; width: 100%; height: auto; border-radius: 8px; }
+    .summary-video { display: block; width: 100%; height: auto; border-radius: 8px; background: #111; }
     figcaption { text-align: center; margin-top: 1rem; color: #555; }
     .feature { height: 100%; padding: 1.5rem; background: white; border: 1px solid #dce3e9; border-radius: 8px; }
     .media-placeholder { min-height: 12rem; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; border: 2px dashed #aabac7; border-radius: 8px; background: #f8fafc; }
@@ -41,10 +42,10 @@
         <h1 class="title is-2 publication-title">Evolutionary diversification via modular compliance for self-reconfigurable continuum robots</h1>
         <div class="is-size-5 publication-authors">
           <span class="author-block"><a href="https://missinglight.github.io/">Yilin Cai</a>,</span>
-          <span class="author-block">Zhefeng Huang,</span>
+          <span class="author-block"><a href="https://janusmaple.github.io/">Zhefeng Huang</a>,</span>
           <span class="author-block"><a href="https://yfnwng.github.io/">Yifan Wang</a>,</span>
           <span class="author-block">Haokai Xu,</span>
-          <span class="author-block">Yue Chen</span>
+          <span class="author-block"><a href="https://scholar.google.com/citations?hl=en&amp;user=dDPQH3oAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Yue Chen</a></span>
         </div>
         <p class="is-size-5">Georgia Institute of Technology</p>
         <p class="venue"><strong>Science Advances</strong> · 2026 · 12(34), eaeg9191</p>
@@ -53,10 +54,10 @@
           <a class="button is-normal is-rounded is-dark" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13488886/">Open-access article</a>
           <a class="button is-normal is-rounded is-dark" href="https://github.com/JanusMaple/CMRRP">Planning code</a>
           <a class="button is-normal is-rounded is-dark" href="https://doi.org/10.5281/zenodo.20215519">Code archive</a>
+          <a class="button is-normal is-rounded is-dark" href="#summary-video">Video</a>
           <a class="button is-normal is-rounded is-dark" href="#BibTeX">BibTeX</a>
         </div>
         <nav class="page-nav" aria-label="Project navigation">
-          <a href="../../Robots/">All robots</a>
           <a href="./msrcr.html">MSRCR v1</a>
           <a href="#design">Robot design</a>
           <a href="#demonstrations">Demonstrations</a>
@@ -66,6 +67,16 @@
   </header>
 
   <main>
+    <section class="section" id="summary-video" aria-labelledby="summary-video-title">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered" id="summary-video-title">Summary Video</h2>
+        <video class="summary-video" controls playsinline preload="metadata" aria-label="MSRCR v2 project summary video">
+          <source src="../img/robots/msrcr_v2_main.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="../img/robots/msrcr_v2_main.mp4">Download the summary video</a>.
+        </video>
+      </div>
+    </section>
+
     <section class="section" aria-label="Project overview image">
       <div class="container is-max-desktop">
         <figure>
@@ -113,7 +124,7 @@
     <section class="section soft-background" id="demonstrations">
       <div class="container is-max-desktop">
         <h2 class="title is-3">Morphologies and Demonstrations</h2>
-        <p class="template-note">This project page is being assembled. Dedicated v2 videos and detailed figures will be added here.</p>
+        <p class="template-note">Watch the <a href="#summary-video">summary video</a> for the main demonstrations. Individual clips and detailed figures will be added below.</p>
         <!-- TODO: Replace the placeholders below with v2 media. Keep v1 footage on msrcr.html. -->
         <div class="columns">
           <div class="column"><div class="media-placeholder">
@@ -154,7 +165,7 @@
 
   <footer class="footer">
     <div class="container has-text-centered content">
-      <p><a href="../../Robots/">More robots</a> · <a href="./msrcr.html">Original MSRCR project</a></p>
+      <p><a href="./msrcr.html">Original MSRCR project</a></p>
       <p>Page styling adapted from the original MSRCR page and the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> template.</p>
     </div>
   </footer>

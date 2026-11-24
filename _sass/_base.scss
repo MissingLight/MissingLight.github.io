@@ -21,6 +21,19 @@ table {
   }
 }
 
+.news .table {
+  th {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-right: 1rem;
+  }
+
+  td {
+    overflow-wrap: anywhere;
+  }
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
